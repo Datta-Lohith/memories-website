@@ -1,0 +1,31 @@
+name: Support or bug report
+description: Ask for help with Memories Re-Live
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include private photos/videos, real profile names, credentials or sensitive logs."
+  - type: input
+    id: version
+    attributes:
+      label: App version and build
+      placeholder: "For example: 1.0.0 (9.1)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model and iOS version
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include expected behavior and steps to reproduce, without private media.
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Additional conditions
+      description: Were you screen sharing/recording? Which permissions were enabled? Include only non-sensitive error text.

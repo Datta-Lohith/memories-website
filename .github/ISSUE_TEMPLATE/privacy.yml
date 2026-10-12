@@ -1,0 +1,12 @@
+name: Privacy question
+description: Ask a question about data handling without sharing personal information
+body:
+  - type: markdown
+    attributes:
+      value: "This is a public channel. Describe your question generally; do not post personal data, media, account details or credentials."
+  - type: textarea
+    id: question
+    attributes:
+      label: Your privacy question
+    validations:
+      required: true
