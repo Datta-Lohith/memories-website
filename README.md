@@ -68,7 +68,7 @@ Public GitHub Issues is the owner-selected contact channel. Reports are visible 
 ### 2026-10-30
 
 - Updated public pages for tested iOS 1.0.0 (9.4): guided onboarding, Memory Lane recording/sharing, existing-photo video workflows, merge/reference export and camera/call behavior. Added optional update-reminder support details and privacy disclosures for Apple listing requests, locally saved AR recordings, Photos saving and separately retained exported copies.
-- Preserved the design, approved simulated demonstration, existing support URLs and public-release-coming-soon wording. No new tracking, scripts, media collection or app code. HTML nesting and all local links passed; public deployment verification follows the commit/push.
+- Preserved the design, approved simulated demonstration, existing support URLs and public-release-coming-soon wording. No new tracking, scripts, media collection or app code. HTML nesting and all local links passed; public home/support/privacy pages returned HTTP 200 with updated content after commit `2b2015c` was pushed.
 
 ### 2026-10-11
 
